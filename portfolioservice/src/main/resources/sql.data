@@ -1,0 +1,9 @@
+CREATE TABLE IF NOT EXISTS portfolio(
+id integer NOT NULL PRIMARY KEY,
+name varchar(50) Not NULL
+);
+CREATE TABLE IF NOT EXISTS holding(
+id integer NOT NULL PRIMARY KEY,
+symbol varchar(20) Not NULL,
+amount double Not NULL
+);

@@ -1,0 +1,7 @@
+CREATE TABLE IF NOT EXISTS exchangeRate (
+id integer NOT NULL PRIMARY KEY,
+symbol varchar(30) DEFAULT NULL,
+base varchar(10) NOT NULL,
+price double Not Null,
+date date Not Null
+);
